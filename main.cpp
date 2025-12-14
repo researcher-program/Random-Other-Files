@@ -1,11 +1,10 @@
 #include <iostream>
-#include "myfirstclass.h"
+#include "myclassdemo.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    MyFirstClass ob1;
-    ob1.display();
+   const MyClassDemo ob;ob.display1();MyClassDemo ob2;ob2.display2();
+
     return 0;
 }
